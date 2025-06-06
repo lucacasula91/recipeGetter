@@ -1,13 +1,12 @@
 from distutils.core import setup
-with open("README.md", "r", encoding="utf-8") as md:
-    long_description = md.read()
+
 setup(
   name = 'recipeGetter',
   packages = ['recipeGetter'],
   version = '0.0.3',
   license='MIT',
   description = 'A scraper for recipe website',
-  long_description=long_description,
+  long_description="long_description",
   long_description_content_type="text/markdown",
   author = 'Xavier Hamel',
   author_email = 'xavier.hamel.protic@gmail.com',
